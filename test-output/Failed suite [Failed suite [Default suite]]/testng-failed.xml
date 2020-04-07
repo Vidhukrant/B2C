@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Default suite]]]">
+  <test name="Default test(failed)(failed)(failed)">
+    <classes>
+      <class name="com.racqa.tests.DetailPageFieldValidationTest">
+        <methods>
+          <include name="testBlankFieldForEmail"/>
+          <include name="testForInvalidMobileNo"/>
+          <include name="testForMisMatchOfEmailAndConfirmEmail"/>
+          <include name="testBlankFieldForConfirmEmail"/>
+          <include name="testAddDependent"/>
+          <include name="testBlankFieldForPhoneNo"/>
+          <include name="testBlankFieldForStreet"/>
+          <include name="testInvalidPinCode"/>
+          <include name="aftersuite"/>
+          <include name="openurl"/>
+          <include name="testBlankFieldForPinCode"/>
+          <include name="testBlankFieldForPrimarytravellerDOB"/>
+          <include name="testBlankFieldForSecondarytravellerDOB"/>
+          <include name="testForInvalidEmailFormat"/>
+          <include name="refreshBrowser"/>
+          <include name="setup"/>
+          <include name="testBlankFieldForSuburb"/>
+          <include name="testForInvalidConFirmEmailFormat"/>
+          <include name="testDeleteDependent"/>
+        </methods>
+      </class> <!-- com.racqa.tests.DetailPageFieldValidationTest -->
+    </classes>
+  </test> <!-- Default test(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Default suite]]] -->

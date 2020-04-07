@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="com.rac.tests.PaymentPageFunctionalityValidation"/>
+      <class name="com.rac.tests.DetailPageFieldValidationTest"/>
+      <class name="com.rac.tests.CompareAndTravelFunctionalityValidationTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.rac.tests.CompareAndTravelFunctionalityValidationTest">
+        <methods>
+          <include name="testgetValidateAllBenefit"/>
+          <include name="testChooseYourExcess"/>
+          <include name="testgetEditFunctionality"/>
+          <include name="testgetSkiWinterNo"/>
+          <include name="testContinueClick"/>
+          <include name="testgetGoingOnCruiseNo"/>
+        </methods>
+      </class> <!-- com.rac.tests.CompareAndTravelFunctionalityValidationTest -->
+      <class name="com.rac.tests.DetailPageFieldValidationTest">
+        <methods>
+          <include name="testForInvalidMobileNo"/>
+          <include name="testForMisMatchOfEmailAndConfirmEmail"/>
+          <include name="testBlankFieldForEmail"/>
+          <include name="getSecondaryAgeDetails18to85SkiWinterSPorts"/>
+          <include name="testBlankFieldForConfirmEmail"/>
+          <include name="testBlankFieldForSecondarytravellerFirstName"/>
+          <include name="testBlankFieldForPhoneNo"/>
+          <include name="getDOBDetailsPageMismatchWithGetAQuote"/>
+          <include name="testAddDependent"/>
+          <include name="testBlankFieldForSecondarytravellerLastName"/>
+          <include name="testInvalidPinCode"/>
+          <include name="getPrimaryAgeDetails18to85SkiWinterSPorts"/>
+          <include name="testBlankFieldForStreet"/>
+          <include name="testBlankFieldForPinCode"/>
+          <include name="testBlankFieldForPrimarytravellerDOB"/>
+          <include name="testBlankFieldForSecondarytravellerDOB"/>
+          <include name="testForInvalidEmailFormat"/>
+          <include name="testForInvalidConFirmEmailFormat"/>
+          <include name="testBlankFieldForSuburb"/>
+          <include name="testBlankFieldForPrimarytravellerFirstName"/>
+          <include name="testDeleteDependent"/>
+          <include name="testBlankFieldForPrimarytravellerLasttName"/>
+        </methods>
+      </class> <!-- com.rac.tests.DetailPageFieldValidationTest -->
+      <class name="com.rac.tests.PaymentPageFunctionalityValidation">
+        <methods>
+          <include name="validateCardWithInvalidCVV"/>
+          <include name="validateBlankCardNumber"/>
+          <include name="validateBlankCVV"/>
+          <include name="validateInvalidCard"/>
+          <include name="validateBlankExpDate"/>
+          <include name="validateWithPastExpDate"/>
+          <include name="validateBlankCardHolderName"/>
+          <include name="preRequisite"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.rac.tests.PaymentPageFunctionalityValidation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

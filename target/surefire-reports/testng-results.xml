@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="292247" started-at="2020-02-12T12:19:25 UTC" finished-at="2020-02-12T12:24:17 UTC">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="292247" started-at="2020-02-12T12:19:25 UTC" finished-at="2020-02-12T12:24:17 UTC">
+      <class name="com.racv.tests.SingleTripGetQuoteFieldValidationTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="setup" is-config="true" duration-ms="4625" started-at="2020-02-12T12:19:25 UTC" finished-at="2020-02-12T12:19:29 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="openurl()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="openurl" is-config="true" duration-ms="12577" started-at="2020-02-12T12:19:30 UTC" finished-at="2020-02-12T12:19:42 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method status="PASS" signature="test_agebelow18andmore110()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="test_agebelow18andmore110" duration-ms="33177" started-at="2020-02-12T12:19:42 UTC" finished-at="2020-02-12T12:20:15 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_agebelow18andmore110 -->
+        <test-method status="PASS" signature="refreshBrowser()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="refreshBrowser" is-config="true" duration-ms="0" started-at="2020-02-12T12:20:15 UTC" finished-at="2020-02-12T12:20:15 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshBrowser -->
+        <test-method status="PASS" signature="openurl()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="openurl" is-config="true" duration-ms="5989" started-at="2020-02-12T12:20:15 UTC" finished-at="2020-02-12T12:20:21 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method status="PASS" signature="test_ageprimaryagefieldblankvalidation()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="test_ageprimaryagefieldblankvalidation" duration-ms="35497" started-at="2020-02-12T12:20:21 UTC" finished-at="2020-02-12T12:20:57 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_ageprimaryagefieldblankvalidation -->
+        <test-method status="PASS" signature="refreshBrowser()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="refreshBrowser" is-config="true" duration-ms="0" started-at="2020-02-12T12:20:57 UTC" finished-at="2020-02-12T12:20:57 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshBrowser -->
+        <test-method status="PASS" signature="openurl()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="openurl" is-config="true" duration-ms="5632" started-at="2020-02-12T12:20:57 UTC" finished-at="2020-02-12T12:21:02 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method status="PASS" signature="test_leavingandretruningdatesame()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="test_leavingandretruningdatesame" duration-ms="24765" started-at="2020-02-12T12:21:02 UTC" finished-at="2020-02-12T12:21:27 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_leavingandretruningdatesame -->
+        <test-method status="PASS" signature="refreshBrowser()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="refreshBrowser" is-config="true" duration-ms="0" started-at="2020-02-12T12:21:27 UTC" finished-at="2020-02-12T12:21:27 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshBrowser -->
+        <test-method status="PASS" signature="openurl()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="openurl" is-config="true" duration-ms="5628" started-at="2020-02-12T12:21:27 UTC" finished-at="2020-02-12T12:21:33 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method status="PASS" signature="test_leavingonfieldblankvalidation()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="test_leavingonfieldblankvalidation" duration-ms="24439" started-at="2020-02-12T12:21:33 UTC" finished-at="2020-02-12T12:21:57 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_leavingonfieldblankvalidation -->
+        <test-method status="PASS" signature="openurl()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="openurl" is-config="true" duration-ms="5629" started-at="2020-02-12T12:21:57 UTC" finished-at="2020-02-12T12:22:03 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method status="PASS" signature="refreshBrowser()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="refreshBrowser" is-config="true" duration-ms="0" started-at="2020-02-12T12:21:57 UTC" finished-at="2020-02-12T12:21:57 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshBrowser -->
+        <test-method status="PASS" signature="test_pastdate()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="test_pastdate" duration-ms="11083" started-at="2020-02-12T12:22:03 UTC" finished-at="2020-02-12T12:22:14 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_pastdate -->
+        <test-method status="PASS" signature="openurl()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="openurl" is-config="true" duration-ms="5593" started-at="2020-02-12T12:22:14 UTC" finished-at="2020-02-12T12:22:20 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method status="PASS" signature="refreshBrowser()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="refreshBrowser" is-config="true" duration-ms="0" started-at="2020-02-12T12:22:14 UTC" finished-at="2020-02-12T12:22:14 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshBrowser -->
+        <test-method status="PASS" signature="test_singletrip_leavingdate_548days()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="test_singletrip_leavingdate_548days" duration-ms="13095" started-at="2020-02-12T12:22:20 UTC" finished-at="2020-02-12T12:22:33 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_singletrip_leavingdate_548days -->
+        <test-method status="PASS" signature="refreshBrowser()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="refreshBrowser" is-config="true" duration-ms="1" started-at="2020-02-12T12:22:33 UTC" finished-at="2020-02-12T12:22:33 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshBrowser -->
+        <test-method status="PASS" signature="openurl()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="openurl" is-config="true" duration-ms="5651" started-at="2020-02-12T12:22:33 UTC" finished-at="2020-02-12T12:22:38 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method status="PASS" signature="test_singletripreturningdate_365days()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="test_singletripreturningdate_365days" duration-ms="18269" started-at="2020-02-12T12:22:38 UTC" finished-at="2020-02-12T12:22:57 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_singletripreturningdate_365days -->
+        <test-method status="PASS" signature="openurl()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="openurl" is-config="true" duration-ms="5653" started-at="2020-02-12T12:22:57 UTC" finished-at="2020-02-12T12:23:02 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method status="PASS" signature="refreshBrowser()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="refreshBrowser" is-config="true" duration-ms="0" started-at="2020-02-12T12:22:57 UTC" finished-at="2020-02-12T12:22:57 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshBrowser -->
+        <test-method status="PASS" signature="test_traveldestfieldblankvalidation()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="test_traveldestfieldblankvalidation" duration-ms="6104" started-at="2020-02-12T12:23:02 UTC" finished-at="2020-02-12T12:23:08 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_traveldestfieldblankvalidation -->
+        <test-method status="PASS" signature="refreshBrowser()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="refreshBrowser" is-config="true" duration-ms="0" started-at="2020-02-12T12:23:08 UTC" finished-at="2020-02-12T12:23:08 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshBrowser -->
+        <test-method status="PASS" signature="openurl()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="openurl" is-config="true" duration-ms="5567" started-at="2020-02-12T12:23:08 UTC" finished-at="2020-02-12T12:23:14 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method status="PASS" signature="testgetaquote()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="testgetaquote" duration-ms="31667" started-at="2020-02-12T12:23:14 UTC" finished-at="2020-02-12T12:23:46 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgetaquote -->
+        <test-method status="PASS" signature="openurl()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="openurl" is-config="true" duration-ms="5635" started-at="2020-02-12T12:23:46 UTC" finished-at="2020-02-12T12:23:51 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method status="PASS" signature="refreshBrowser()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="refreshBrowser" is-config="true" duration-ms="0" started-at="2020-02-12T12:23:46 UTC" finished-at="2020-02-12T12:23:46 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshBrowser -->
+        <test-method status="PASS" signature="testgetdomestic_Internationaltravel()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="testgetdomestic_Internationaltravel" duration-ms="14265" started-at="2020-02-12T12:23:51 UTC" finished-at="2020-02-12T12:24:05 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgetdomestic_Internationaltravel -->
+        <test-method status="PASS" signature="openurl()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="openurl" is-config="true" duration-ms="5619" started-at="2020-02-12T12:24:05 UTC" finished-at="2020-02-12T12:24:11 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method status="PASS" signature="refreshBrowser()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="refreshBrowser" is-config="true" duration-ms="0" started-at="2020-02-12T12:24:05 UTC" finished-at="2020-02-12T12:24:05 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshBrowser -->
+        <test-method status="PASS" signature="testsingletripselected()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="testsingletripselected" duration-ms="5224" started-at="2020-02-12T12:24:11 UTC" finished-at="2020-02-12T12:24:16 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsingletripselected -->
+        <test-method status="PASS" signature="refreshBrowser()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="refreshBrowser" is-config="true" duration-ms="0" started-at="2020-02-12T12:24:16 UTC" finished-at="2020-02-12T12:24:16 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshBrowser -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:com.racv.tests.SingleTripGetQuoteFieldValidationTest@5b87ed94]" name="aftersuite" is-config="true" duration-ms="665" started-at="2020-02-12T12:24:16 UTC" finished-at="2020-02-12T12:24:17 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- com.racv.tests.SingleTripGetQuoteFieldValidationTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
